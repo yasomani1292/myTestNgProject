@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-20T16:24:38Z" name="Dataprovider suite" finished-at="2024-09-20T16:24:38Z" duration-ms="193">
+    <groups>
+    </groups>
+    <test started-at="2024-09-20T16:24:38Z" name="Unit Test" finished-at="2024-09-20T16:24:38Z" duration-ms="71">
+      <class name="dataprovider.DataProviderParameterExample">
+        <test-method signature="scenario1(java.lang.String)[pri:0, instance:dataprovider.DataProviderParameterExample@61322f9d]" started-at="2024-09-20T16:24:38Z" name="scenario1" data-provider="scenarioData" finished-at="2024-09-20T16:24:38Z" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario1 data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method signature="scenario2(java.lang.String)[pri:0, instance:dataprovider.DataProviderParameterExample@61322f9d]" started-at="2024-09-20T16:24:38Z" name="scenario2" data-provider="scenarioData" finished-at="2024-09-20T16:24:38Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario2 data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method signature="scenario3(java.lang.String)[pri:0, instance:dataprovider.DataProviderParameterExample@61322f9d]" started-at="2024-09-20T16:24:38Z" name="scenario3" data-provider="scenarioData" finished-at="2024-09-20T16:24:38Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common Scenario data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario3 -->
+      </class> <!-- dataprovider.DataProviderParameterExample -->
+    </test> <!-- Unit Test -->
+    <test started-at="2024-09-20T16:24:38Z" name="IntegrationLevel" finished-at="2024-09-20T16:24:38Z" duration-ms="7">
+      <class name="dataprovider.DataProviderIntegrationExample">
+        <test-method signature="integrationTest(java.lang.String)[pri:0, instance:dataprovider.DataProviderIntegrationExample@79d8407f]" started-at="2024-09-20T16:24:38Z" name="integrationTest" data-provider="TestType" finished-at="2024-09-20T16:24:38Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Integration Test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest -->
+      </class> <!-- dataprovider.DataProviderIntegrationExample -->
+    </test> <!-- IntegrationLevel -->
+    <test started-at="2024-09-20T16:24:38Z" name="AcceptanceLevel" finished-at="2024-09-20T16:24:38Z" duration-ms="12">
+      <class name="dataprovider.DataProviderAcceptanceExample">
+        <test-method signature="acceptanceTest(java.lang.String)[pri:0, instance:dataprovider.DataProviderAcceptanceExample@5aebe890]" started-at="2024-09-20T16:24:38Z" name="acceptanceTest" data-provider="TestType" finished-at="2024-09-20T16:24:38Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance Test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptanceTest -->
+      </class> <!-- dataprovider.DataProviderAcceptanceExample -->
+    </test> <!-- AcceptanceLevel -->
+  </suite> <!-- Dataprovider suite -->
+</testng-results>

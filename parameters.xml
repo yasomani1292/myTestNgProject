@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestParameters" verbose="1">
+	<test name="Test parameter" preserve-order="true">
+		<parameter name="browser" value="Mozila"></parameter>
+		<parameter name="username" value="yasomani"></parameter>
+		<parameter name="password" value="hhihiki"></parameter>
+		<classes>
+		<class name="com.testNG.training.TestParameteres"></class>
+		</classes>
+		
+	</test> 
+
+</suite> 

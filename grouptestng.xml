@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Testcase Group" verbose="1">
+	<test name="Sample" preserve-order="true">
+		<groups>
+		<run>
+		   <include name="Regression"></include>
+		   <include name="Sanity"></include>
+		</run>
+		</groups>
+		<classes>
+		<class name="com.testNG.training.TestcaseGrouping"></class>
+		</classes>
+		
+	</test> 
+
+</suite> 
